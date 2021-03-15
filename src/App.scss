@@ -2,4 +2,7 @@
   max-width: 1200px;
   min-width: 100vw;
   min-height: calc(100vh - 110px);
+
+  display: grid;
+  grid-template-columns: [col-start] 10% [content] auto 10% [col-end];
 }
